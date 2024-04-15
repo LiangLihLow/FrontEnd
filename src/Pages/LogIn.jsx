@@ -27,7 +27,7 @@ export default function LogIn() {
             <h1>Login to your account</h1>
             <Form>
                 <Form.Group>
-                    <Form.Label htmlFor="NameInput" className="label">User Name <i>(test)</i></Form.Label>
+                    <Form.Label htmlFor="NameInput" className="label">Username <i>(test)</i></Form.Label>
                     <Form.Control
                         id="NameInput"
                         type="text"
