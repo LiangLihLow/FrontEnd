@@ -1,0 +1,67 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 300px;
+}
+
+
+.label {
+    display: block;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.panel {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.my-Button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.my-Button:hover {
+    background-color: #0056b3;
+}
+
+.title {
+    margin-top: 5px;
+}
+
+.dashboard-light {
+    background-color: lightpink;
+    margin-bottom: 30px;
+
+}
+
+.dashboard-dark {
+    background-color: gray;
+}
